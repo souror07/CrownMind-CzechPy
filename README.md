@@ -121,12 +121,24 @@ You can add screenshots here later if you want to showcase the game interface.
 - Add multiplayer mode
 - Enhance UI/UX
 
-## License
-
-This project is currently released without a specific license.
-
----
 
 ## Author
 
 Created by **[souror07]**
+
+## License
+
+Copyright (c) 2026 souror
+
+All rights reserved.
+
+Permission is NOT granted to any person to use, copy, modify, merge, publish, distribute, sublicense, or sell this software or any part of it.
+
+This project and its source code are the exclusive property of the author (souror).  
+Any unauthorized use, reproduction, or distribution of this project is strictly prohibited.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+For any permission requests, contact the author.
+
+---
