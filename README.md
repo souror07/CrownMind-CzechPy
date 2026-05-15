@@ -1,24 +1,27 @@
-
 ## 👤 Author
 This project was developed and owned by **souror**.
 
 All rights reserved. Unauthorized copying or use is prohibited.
 
-# Introducing myself
+---
+
+# 👋 Introducing Myself
 Hello! I'm a beginner programmer, and this is my first complete project.  
 I built this Checkers game to practice Python, game logic, and basic AI development.
 
 I'm continuously learning and improving, and this project represents an important step in my journey.
 
 ---
-# Checker Game
 
-A polished desktop **Checkers game with AI** built in Python using `tkinter`.  
-This project provides a clean graphical interface, mandatory capture rules, king promotion, board flipping, multiple AI difficulty levels, and a smooth gameplay experience for both casual and more advanced players.
+# ♟️ CrownMind CzechPy
+
+A polished desktop **Checkers AI game** built in Python using `tkinter`.
+
+This project features a clean graphical interface, intelligent AI with multiple difficulty levels, and a smooth gameplay experience designed for both beginners and advanced players.
 
 ---
 
-## Features
+## 🚀 Features
 
 - Full checkers gameplay on an 8×8 board
 - Human vs AI mode
@@ -35,97 +38,96 @@ This project provides a clean graphical interface, mandatory capture rules, king
 - Move highlighting and visual feedback
 - Board flip option for better viewing
 - Evaluation bar showing AI advantage
-- Modern-looking Tkinter interface
+- Modern Tkinter interface
 
 ---
 
-## How to Run
+## ▶️ How to Run
 
 ### Option 1: Run the EXE file
 If you downloaded the compiled version, simply open the `.exe` file.
 
 ### Option 2: Run from Python source
-If you have the source code:
 
-```bash
-python project_of_the_year.py
-```
+    python project_of_the_year.py
 
-Make sure you have Python installed on your system.
+Make sure Python is installed on your system.
 
 ---
 
-## Requirements
+## 📦 Requirements
 
-- Python 3.x
-- `tkinter` (usually included with Python)
-- No extra third-party packages are required
-
----
-
-## Gameplay Rules
-
-- Red is the human player.
-- Black is controlled by the AI.
-- Captures are mandatory when available.
-- Pieces move diagonally.
-- Normal pieces move forward only.
-- Kings can move diagonally in all directions.
-- A piece becomes a king when it reaches the opposite end of the board.
+- Python 3.x  
+- tkinter (included with Python)  
+- No external libraries required  
 
 ---
 
-## AI Difficulty
+## 🎮 Gameplay Rules
 
-The AI supports several difficulty levels:
-
-- **Beginner**: weaker and more random
-- **Easy**: simple but still challenging
-- **Normal**: balanced difficulty
-- **Hard**: stronger and more strategic
-- **Expert**: best available move selection
-
-The AI uses an alpha-beta search strategy with move ordering and evaluation heuristics.
+- Red is the human player  
+- Black is controlled by the AI  
+- Captures are mandatory  
+- Pieces move diagonally  
+- Normal pieces move forward only  
+- Kings move in all diagonal directions  
+- Promotion occurs at the opposite end  
 
 ---
 
-## Project Structure
+## 🧠 AI Difficulty Levels
 
-```text
-Checker Game/
-├── project_of_the_year.py
-├── README.md
-└── (optional build files or exe)
-```
+- Beginner → Weak / random  
+- Easy → Simple logic  
+- Normal → Balanced  
+- Hard → Strategic  
+- Expert → Best possible moves  
 
----
-
-## Notes
-
-- This project was designed to be playable, visually clear, and stable.
-- The interface includes move highlighting, turn indicators, and game-over dialogs.
-- The compiled `.exe` version is suitable for direct use on Windows.
+The AI uses Minimax with Alpha-Beta pruning for efficient decision making.
 
 ---
 
-## Screenshots
+## 📂 Project Structure
 
-You can add screenshots here later if you want to showcase the game interface.
+    Checker Game/
+    ├── project_of_the_year.py
+    ├── README.md
+    └── (optional build files or exe)
 
 ---
-## Future Improvements
 
-- Add sound effects
-- Improve AI performance
-- Add multiplayer mode
-- Enhance UI/UX
+## 📝 Notes
 
+- Designed to be stable, playable, and visually clear  
+- Includes move highlighting and game-over detection  
+- EXE version is ready for Windows use  
 
-## Author
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="screenshot.png" width="500">
+</p>
+
+---
+
+## 🔮 Future Improvements
+
+- Add sound effects  
+- Improve AI performance  
+- Add multiplayer mode  
+- Enhance UI/UX  
+
+---
+
+## 👨‍💻 Author
 
 Created by **[souror07]**
 
-## License
+---
+
+## 📜 License
 
 Copyright (c) 2026 souror
 
@@ -139,5 +141,3 @@ Any unauthorized use, reproduction, or distribution of this project is strictly 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
 
 For any permission requests, contact the author.
-
----
